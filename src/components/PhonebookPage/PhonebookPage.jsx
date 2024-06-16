@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Section from '../Section/Section';
-import AddContact from './AddContact';
-import ContactsList from './ContactsList';
+import AddContact from './AddContact/AddContact';
+import ContactsList from './ContactsList/ContactsList';
 import { nanoid } from 'nanoid';
-import Filter from './Filter';
+import Filter from './Filter/Filter';
 
 class PhonebookPage extends Component {
   state = {

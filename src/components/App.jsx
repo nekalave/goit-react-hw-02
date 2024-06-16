@@ -10,7 +10,7 @@ const App = () => {
     <Fragment>
       <Header />
       <Routes>
-        <Route path='/goit-react-hw-02' element={<Home />} />
+        <Route path='/goit-react-hw-02/' element={<Home />} />
         <Route path='/feedback' element={<FeedbackPage />} />
         <Route path='/phonebook' element={<PhonebookPage />} />
       </Routes>
