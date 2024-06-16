@@ -56,7 +56,7 @@ class PhonebookPage extends Component {
 
 
   render() {
-    const { contacts, name, number, filter } = this.state;
+    const { name, number, filter } = this.state;
     const filteredContacts = this.getFilteredContacts();
     return (
       <>
